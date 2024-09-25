@@ -1,0 +1,70 @@
+// Figure_method
+digraph Figure_method {
+	rankdir=LR
+	"E-fuel impact" [shape=rectangle]
+	"Other source 
+of impact" [shape=rectangle]
+	"H2 impact" [shape=rectangle]
+	"Electricity impact" [shape=rectangle]
+	"Electricity mix
+considered" [shape=rectangle]
+	"Production mix" [shape=rectangle]
+	"Tracked consumption mix" [shape=rectangle]
+	"Grid losses" [shape=rectangle]
+	"Tracking algorithm" [shape=rectangle]
+	"ENTSO-E
+production data" [shape=rectangle]
+	"ENTSO-E
+exchange data" [shape=rectangle]
+	"Emissions factors 
+per electricity output" [shape=rectangle]
+	"Emissions factors 
+per fuel input" [shape=rectangle]
+	"Efficiency data" [shape=rectangle]
+	"EUROSTAT
+electricity and heat output" [shape=rectangle]
+	"EUROSTAT
+energy input" [shape=rectangle]
+	"EUROSTAT
+dataset nrg_bal_c" [shape=rectangle]
+	"EUROSTAT
+dataset nrg_cb_e" [shape=rectangle]
+	"H2 impact" -> "E-fuel impact" [style=dashed]
+	"Other source 
+of impact" -> "E-fuel impact" [style=dashed]
+	"Electricity impact" -> "H2 impact"
+	"Electricity mix
+considered" -> "Electricity impact"
+	"Emissions factors 
+per electricity output" -> "Electricity impact"
+	"Emissions factors 
+per fuel input" -> "Emissions factors 
+per electricity output"
+	"Efficiency data" -> "Emissions factors 
+per electricity output"
+	"EUROSTAT
+electricity and heat output" -> "Efficiency data"
+	"EUROSTAT
+energy input" -> "Efficiency data"
+	"Production mix" -> "Electricity mix
+considered" [style=dashed]
+	"Tracked consumption mix" -> "Electricity mix
+considered" [style=dashed]
+	"Grid losses" -> "Electricity mix
+considered"
+	"EUROSTAT
+dataset nrg_cb_e" -> "Grid losses"
+	"ENTSO-E
+production data" -> "Production mix"
+	"Tracking algorithm" -> "Tracked consumption mix"
+	"ENTSO-E
+production data" -> "Tracking algorithm"
+	"ENTSO-E
+exchange data" -> "Tracking algorithm"
+	"EUROSTAT
+dataset nrg_bal_c" -> "EUROSTAT
+electricity and heat output"
+	"EUROSTAT
+dataset nrg_bal_c" -> "EUROSTAT
+energy input"
+}
