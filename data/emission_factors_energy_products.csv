@@ -1,0 +1,69 @@
+Source: Eurostat;upstream emissions: JECv5, combustion emissions: IPCC 2006, Guidelines for National Greenhouse Gas Inventories;kg/TJ;kg/TJ;kg/TJ;kg CO2eq / TJ
+siec;label;efCO2;efCH4;efN2O;UpstreamE3
+C0000X0350-0370;Solid fossil fuels;94600;1;1.5;1700
+C0110;Anthracite;98300;1;1.5;16000
+C0121;Coking coal;94600;1;1.5;1700
+C0129;Other bituminous coal;94600;1;1.5;1700
+C0210;Sub-bituminous coal;96100;1;1.5;1700
+C0220;Lignite;101000;1;1.5;1700
+C0320;Patent fuel;97500;1;1.5;10700
+C0311;Coke oven coke;107000;1;1.5;10700
+C0312;Gas coke;107000;1;0.1;10700
+C0340;Coal tar;80700;1;1.5;10700
+C0330;Brown coal briquettes;97500;1;1.5;1700
+C0350-0370;Manufactured gases;44400;1;0.1;10700
+C0360;Gas works gas;44400;1;0.1;10700
+C0350;Coke oven gas;44400;1;0.1;10700
+C0371;Blast furnace gas;260000;1;0.1;10700
+C0379;Other recovered gases;182000;1;0.1;10700
+P1000;Peat and peat products;106000;1;1.5;1700
+P1100;Peat;106000;1;1.5;1700
+P1200;Peat products;106000;1;1.5;1700
+S2000;Oil shale and oil sands;73300;3;0.6;10700
+O4000XBIO;Oil and petroleum products;73300;3;0.6;10700
+O4100_TOT;Crude oil;73300;3;0.6;10700
+O4200;Natural gas liquids;64200;3;0.6;10700
+O4300;Refinery feedstocks;73300;3;0.6;10700
+O4400X4410;Additives and oxygenates (excluding biofuel portion);73300;3;0.6;10700
+O4500;Other hydrocarbons;73300;3;0.6;10700
+O4610;Refinery gas;57600;1;0.1;10700
+O4620;Ethane;61600;1;0.1;10700
+O4630;Liquefied petroleum gases;63100;1;0.1;10700
+O4652XR5210B;Motor gasoline (excluding biofuel portion);69300;3;0.6;10700
+O4651;Aviation gasoline;70000;3;0.6;10700
+O4653;Gasoline-type jet fuel;70000;3;0.6;10700
+O4661XR5230B;Kerosene-type jet fuel (excluding biofuel portion);71500;3;0.6;10700
+O4669;Other kerosene;71500;3;0.6;10700
+O4640;Naphtha;73300;3;0.6;10700
+O4671XR5220B;Gas oil and diesel oil (excluding biofuel portion);74100;3;0.6;10700
+O4680;Fuel oil;77400;3;0.6;10700
+O4691;White spirit and special boiling point industrial spirits;73300;3;0.6;10700
+O4692;Lubricants;73300;3;0.6;10700
+O4695;Bitumen;80700;3;0.6;10700
+O4694;Petroleum coke;97500;3;0.6;10700
+O4693;Paraffin waxes;73300;3;0.6;10700
+O4699;Other oil products;73300;3;0.6;10700
+G3000;Natural gas;56100;1;0.1;12800
+RA000;Renewables and biofuels;0;0;0;0
+RA100;Hydro;0;0;0;0
+RA500;Tide, wave, ocean;0;0;0;0
+RA300;Wind;0;0;0;0
+RA420;Solar photovoltaic;0;0;0;0
+RA410;Solar thermal;0;0;0;0
+RA200;Geothermal;0;0;0;0
+R5110-5150_W6000RI;Primary solid biofuels;0;30;4;700
+R5160;Charcoal;0;200;4;700
+R5300;Biogases;0;1;0.1;14900
+W6210;Renewable municipal waste;0;30;4;0
+R5210P;Pure biogasoline;0;3;0.6;46800
+R5210B;Blended biogasoline;0;3;0.6;46800
+R5220P;Pure biodiesels;0;3;0.6;46800
+R5220B;Blended biodiesels;0;3;0.6;46800
+R5230P;Pure bio jet kerosene;0;3;0.6;46800
+R5230B;Blended bio jet kerosene;0;3;0.6;46800
+R5290;Other liquid biofuels;0;3;0.6;46800
+RA600;Ambient heat (heat pumps);0;0;0;0
+W6100_6220;Non-renewable waste;0;0;0;0
+W6100;Industrial waste (non-renewable);143000;30;4;0
+W6220;Non-renewable municipal waste;91700;30;4;0
+N900H;Nuclear heat;0;0;0;1200
